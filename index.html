@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <section class="fireWorkAnimi"></section>
+    <div class="txtYearWish">Happy New Year</div>
+    <div class="txtWishMsg1">Keep all the painful memories of 2024 in mind.</div>
+    <div class="txtWishMsg2">Only the happy memories will be remembered and carried into 2025</div>
+    <div class="txtYear">
+        <span class="already">202</span>
+        <span class="oldYearNo">4</span>
+        <span class="newYearNo">5</span>
+        <div class="mainBaloon"></div>
+    </div>
+    <div class="badQulities">
+        <div class="bdqNegative">Negativity</div>
+        <div class="bdqProcast">Procastination</div>
+        <div class="bdqAnger">Anger</div>
+        <div class="bdqLaze">Laziness</div>
+        <div class="bdqJealous">Jealousy</div>
+    </div>
+    <div class="goodQulities">
+        <div class="gdqOpti">Optimism</div>
+        <div class="gdqAct">Action</div>
+        <div class="gdqCalm">Calmness</div>
+        <div class="gdqDilige">Diligence</div>
+        <div class="gdqCont">Contentment</div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="jquery.fireworks.js"></script>
+	<script type="text/javascript">
+        setTimeout(function(){
+		$('.fireWorkAnimi').fireworks({ 
+		  sound: false, // sound effect
+		  opacity: 0.9, 
+		  width: '350%', 
+		  height: '100%' 
+		});
+    }, 14000);
+	</script>
+</body>
+</html>
